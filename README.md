@@ -1,0 +1,2 @@
+# esercitazione-vera
+esercitazione ufficiale
