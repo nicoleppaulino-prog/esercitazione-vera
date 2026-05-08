@@ -5,15 +5,15 @@
 
 body {
     font-family: "Helvetica Neue", Arial, sans-serif;
-    font-size: 17px;
+    font-size: 20px;
     line-height: 1.7;
     color: #0a0a0a;
     background-color: #f2a6f2;
     cursor: pointer;
-    margin:0
-    paadding: 30px;
+    margin: 0;
+    padding: 30px;
     background-color: #f2a6f2;
-    box sizing: border-box;
+    box-sizing: border-box;
 }
 
 #siteHeader {
@@ -39,7 +39,6 @@ nav li {
     color: #040404;
     font-weight: bold;
     line-height: 8;
-    text-decoration:none;
     display: inline-block;
     margin-bottom: 15px;
 }
