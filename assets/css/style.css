@@ -1,0 +1,163 @@
+.aiuto {
+    color: rgb(1, 1, 1);
+    font-weight: 900;
+}
+
+body {
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    font-size: 17px;
+    line-height: 1.7;
+    color: #0a0a0a;
+    background-color: #f2a6f2;
+    cursor: pointer;
+    margin:0
+    paadding: 30px;
+    background-color: #f2a6f2;
+    box sizing: border-box;
+}
+
+#siteHeader {
+    background-image: url(chopper.webp);
+    background-size: cover;
+    background-position: center;
+    color: #080808;
+    text-align:left;
+    ;
+    padding: 60px 20px;
+    border-radius: 40px;
+}
+
+#siteHeader h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    font-style: italic;
+}
+
+
+
+nav li {
+    color: #040404;
+    font-weight: bold;
+    line-height: 8;
+    text-decoration:none;
+    display: inline-block;
+    margin-bottom: 15px;
+}
+
+ul {
+    list-style: none;
+}
+
+nav a:hover {
+    color: #f7f7f6;
+    background-color: rgba(77, 158, 228, 0.2);
+    display: inline-block;
+}
+
+main h2 {
+    font-size: 1.7rem;
+    color: hsl(222, 67%, 48%);
+    text-align: left;
+}
+
+main h3 {
+    font-size: 1.15rem;
+    color: hsl(124, 76%, 47%);
+    text-align: left;
+    
+}
+
+section#competenze p {
+    color: #151414;
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+#chiSono {
+    background-color: #ffffff;
+    text-align: justify;
+    padding-left: 20px;
+}
+
+#chiSono p:first-of-type {
+    font-size: 1.1rem;
+    font-style: italic;
+    color: #049d6d;
+  
+}
+
+.skillList li:nth-child(odd) {
+    background-color: #9263f9;
+}
+
+.skillList li:nth-child(even) {
+    background-color: #f4e8f2;
+}
+
+.skillList li:first-child {
+    font-weight: bold;
+}
+
+.project:nth-of-type(odd) {
+    background-color: #f7f6fa;
+}
+
+
+.project:nth-of-type(even) {
+    background-color: #f4e8f2;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+table,
+th,
+td {
+    border: 3px solid rgb(48, 30, 182);
+}
+
+
+label {
+    font-weight: bold;
+    color: hsl(0, 0%, 7%);
+}
+
+input,
+textarea {
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    font-size: 0.95rem;
+    width: 60%;
+    background-color: #f6f2f2;
+    border-radius: 10px;
+}
+
+
+input:date{
+    background-color: #f7eaea;
+    color: #d41515;
+}
+
+.consenso {
+    width: auto;
+}
+
+button {
+    color: #ffffff;
+    background-color: hsl(208, 55%, 42%);
+    font-weight: bold;
+    width: 30%;
+}
+
+button:hover {
+    color: #eeeeee;
+    background-color: hsl(93, 83%, 47%);
+}
+
+#siteFooter {
+    background-color: #2e1a27;
+    color: #ffffff;
+    text-align: center;
+    font-size: 0.9rem;
+}
+
